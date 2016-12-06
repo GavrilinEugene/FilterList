@@ -5,7 +5,7 @@ import com.epam.javauniversity.predicate.Predicate;
 import java.util.ArrayList;
 import java.util.List;
 
-public final class ListUtils {
+public final class ListFilter {
 
     public static <T> List<T> filter(List<T> data, Predicate<? super T> predicate) {
         if (data == null || predicate == null) {
