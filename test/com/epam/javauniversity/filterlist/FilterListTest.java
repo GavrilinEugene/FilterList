@@ -40,7 +40,7 @@ public class FilterListTest {
         List<Integer> resList = new ArrayList<Integer>();
         resList.add(100);
         resList.add(84);
-        
+
         Assert.assertEquals(ListFilter.filter(list, new Predicate<Integer>() {
             @Override
             public boolean satisfies(Integer item) {

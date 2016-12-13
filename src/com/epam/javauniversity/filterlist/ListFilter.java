@@ -7,7 +7,7 @@ import java.util.List;
 
 public final class ListFilter {
 
-    public static <T> List<T> filter(List<T> data, Predicate<? super T> predicate) {
+    public static <T> List<? super T> filter(List<T> data, Predicate<? super T> predicate) {
         if (data == null || predicate == null) {
             throw new IllegalArgumentException("");
         }
